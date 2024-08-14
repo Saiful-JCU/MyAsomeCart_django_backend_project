@@ -6,6 +6,6 @@ from django.urls import path
 
 def index(request):
 
-    return HttpResponse('This is Home page of BlogApp!')
+    return render(request, 'shop/index.html')
 
-# Create your views here.
+

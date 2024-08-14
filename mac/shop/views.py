@@ -6,4 +6,4 @@ from django.urls import path
 
 def index(request):
 
-    return HttpResponse('This is Home page of ShopApp!')
+    return render(request, 'shop/index.html')
